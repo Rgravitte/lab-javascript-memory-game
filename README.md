@@ -109,6 +109,7 @@ Finally it will return `true` or `false` depending on the result of comparing bo
 
 ```javascript
 MemoryGame.prototype.checkIfPair = function(firstCard, secondCard) {
+  if(firstCard)
 
 };
 ```
